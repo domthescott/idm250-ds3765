@@ -114,3 +114,139 @@ footer ul {
 .menu-404-menu-container li{font-size: 16px;}
 
 .menu-404-menu-container a {color: black;}
+
+.blog-content-wrapper {
+    background-color: #E7D7C1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.blog-content {
+    width: 70vw;
+    font-family: "Koh Santepheap", serif;
+
+}
+
+@media (max-width: 768px) {
+ 
+    .blog-content {
+    width: 85vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+  
+    .blog-content {      
+    width: 90vw;
+    }
+}
+
+.blog-content a {
+    color: #8C1C13;
+}
+
+.blog-content figcaption {
+    font-size: 12px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #5B5B5B;
+}
+
+.blog-content p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #5B5B5B;
+}
+
+.blog-content img {
+    width: 100%;
+}
+
+
+.wp-block-quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wp-block-quote p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #8C1C13;
+}
+
+.blog-content h1 {
+   color: #8C1C13;
+   font-weight: 700;
+   font-size: 36px;
+   
+   
+}
+
+
+
+.blog-content h2 {
+    font-weight: 600;
+    font-size: 28px;
+ }
+
+ .blog-content h2::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+ 
+.blog-content h3 {
+    font-weight: 500;
+    font-size: 24px;
+    
+ }
+
+ .blog-content h3::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+
+ 
+.blog-content h4 {
+    font-weight: 400;
+    font-size: 20px;
+    
+ }
+
+ .blog-content h4::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+
+ 
+.blog-content h5 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+ }
+
+ 
+.blog-content h6 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+ }
