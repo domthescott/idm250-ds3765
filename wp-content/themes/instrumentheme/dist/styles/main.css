@@ -1,0 +1,116 @@
+*
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family: "Koh Santepheap", serif;
+    margin: 0px;
+    background-color: #8C1C13;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    header { 
+        display: flex;
+        justify-content: center;
+    
+    }
+
+}
+
+
+
+header a {
+
+font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+header li {
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    header li { 
+        margin-top: 0rem;
+    margin-bottom: 0rem;}
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    header ul { flex-direction: column;
+        margin-right: 30px;}
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-family: "Koh Santepheap", serif;
+    color: white;
+    background-color: #8C1C13;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    footer{ 
+        justify-content: center;
+        width: 100%;
+        align-items:  center;
+        flex-direction: column;}
+}
+
+footer p {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    margin-right: 35px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu-404-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Koh Santepheap", serif;
+}
+
+.menu-404-menu-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu-404-menu-container li{font-size: 16px;}
+
+.menu-404-menu-container a {color: black;}
