@@ -146,6 +146,10 @@ footer ul {
     }
 }
 
+.blog-content h1 {
+    text-align: center;
+}
+
 .blog-content a {
     color: #8C1C13;
 }
