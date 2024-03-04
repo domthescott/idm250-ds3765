@@ -1,13 +1,15 @@
-<h1>page tester</h1>
+
 <?php get_header(); ?>
+
+<h1 class="page-template_title">
+<?php echo get_the_title(); ?>
+</h1>
 
 <div class="page-content-wrapper"> 
 <div class="page-content">
 
 
-<h1>
-<?php echo get_the_title(); ?>
-</h1>
+
 
 
 <?php echo get_the_content(); ?>

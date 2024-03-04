@@ -4,6 +4,9 @@ body {
     margin: 0px;
 }
 
+
+/* header */
+
 header {
     font-family: "Koh Santepheap", serif;
     margin: 0px;
@@ -19,8 +22,6 @@ header {
     }
 
 }
-
-
 
 header a {
 
@@ -57,6 +58,8 @@ margin-bottom: 1.5rem;
         margin-right: 30px;}
 
 }
+
+/* footer */
 
 
 footer {
@@ -96,6 +99,8 @@ footer ul {
 
 }
 
+/* 404 menu */
+
 .menu-404-menu-container {
     display: flex;
     flex-direction: row;
@@ -115,6 +120,10 @@ footer ul {
 
 .menu-404-menu-container a {color: black;}
 
+
+
+/* blog post */
+
 .blog-content-wrapper {
     background-color: #E7D7C1;
     display: flex;
@@ -124,6 +133,7 @@ footer ul {
     
 
 }
+
 
 .blog-content {
     width: 70vw;
@@ -190,8 +200,6 @@ footer ul {
    
 }
 
-
-
 .blog-content h2 {
     font-weight: 600;
     font-size: 28px;
@@ -254,3 +262,251 @@ footer ul {
     font-size: 16px;
     font-family: "Plus Jakarta Sans", sans-serif;
  }
+
+ /* 404 section */
+
+.error404 {
+    background-color: #E7D7C1;
+}
+
+.error-content {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-content h3 {
+    color:#8C1C13;
+}
+
+.error-content a {
+    color:#8C1C13;
+    text-decoration: none;
+}
+
+.error-content h4 {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.error-content img {
+    height: 14rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .error-content img{ 
+        height: 8rem;
+        }
+}
+
+.error-content ul {
+padding-inline-start: 0px;
+
+    
+}
+
+/* page template */
+
+.page-content-wrapper {
+    padding-top: 2rem;
+    background-color: #E7D7C1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+.page-content {
+    width: 70vw;
+    font-family: "Koh Santepheap", serif;
+
+}
+
+@media (max-width: 768px) {
+ 
+    .page-content {
+    width: 85vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+  
+    .page-content {      
+    width: 90vw;
+    }
+}
+
+.page-template_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    background-image: url('../../images/page-default-header-image.jpg');
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0px;
+    height: 15rem;
+}
+
+.page-content a {
+    color: #8C1C13;
+}
+
+.page-content figcaption {
+    font-size: 12px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #5B5B5B;
+}
+
+.page-content p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #5B5B5B;
+}
+
+.page-content img {
+    width: 100%;
+}
+
+
+.wp-block-quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wp-block-quote p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #8C1C13;
+}
+
+
+.page-content h2 {
+    font-weight: 600;
+    font-size: 28px;
+ }
+
+ .page-content h2::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+ 
+.page-content h3 {
+    font-weight: 500;
+    font-size: 24px;
+    
+ }
+
+ .page-content h3::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+
+ 
+.page-content h4 {
+    font-weight: 400;
+    font-size: 20px;
+    
+ }
+
+ .page-content h4::before {
+    content: "";
+    display: block;
+    width: 5rem; /* Adjust the width of the line */
+    height: 5px; /* Adjust the height/thickness of the line */
+    background-color: #8C1C13; /* Adjust the color of the line */
+    margin-bottom: 5px; /* Adjust the spacing between the line and the h1 */
+  
+ }
+
+ 
+.page-content h5 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+ }
+
+ 
+.page-content h6 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+ }
+
+ .page-content blockquote {
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+   width: 100%;
+   background-color: #8C1C13;
+   border-radius: 80px 0px 80px 0px;
+
+}
+
+.page-content blockquote p {
+    color: white;
+}
+
+@media (max-width: 480px) {
+  
+    .page-content blockquote p {      
+    font-size: 18px;
+    }
+}
+
+
+
+
+.page-content blockquote p::before {
+    content: "";
+    display: block;
+    background-image: url('../../images/quote.svg');
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: 50px;
+  width: 50px;
+  height: 50px;
+  
+ }
+ 
+
+ @media (max-width: 480px) {
+  
+    .page-content blockquote p::before {      
+        background-size: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.wp-block-button a 
+{
+    background-color: #8C1C13;
+    color: white;
+    height: 3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
