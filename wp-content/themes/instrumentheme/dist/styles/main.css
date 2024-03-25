@@ -2,6 +2,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: #E7D7C1;
 }
 
 
@@ -69,7 +70,6 @@ footer {
     color: white;
     background-color: #8C1C13;
     justify-content: space-between;
-    padding-right: 2rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -509,4 +509,224 @@ padding-right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
+
+/* home page */
+
+.front-page-hero {
+    display: flex;
+    flex-direction: column;
+ justify-content: flex-end;
+    background-size: cover;
+   min-height: 400px;
+    background-image: url('../../images/instrumenthero.jpg');
+}
+
+@media only screen and (max-width: 991px) {
+    .front-page-hero { 
+
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+.front-page-sub-hero {
+
+margin-left: 50px;
+margin-bottom: 50px;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    background-color: #8C1C13;
+    width: 40%;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+    .front-page-sub-hero { 
+
+        margin-left: 0px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .front-page-sub-hero { 
+      width: 80%;
+    
+    }
+
+}
+
+
+.what-we-do-section-wrapper {
+    width: 100%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+  
+}
+
+.what-we-do-section {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 70%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .what-we-do-section { 
+      width: 90%;
+    
+    }
+
+}
+
+.home-piano {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.read-more-wrapper {
+    padding-top: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+color: white;
+    background-color: #5B5B5B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .read-more-wrapper { 
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-thumbnail {
+
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;}
+
+    @media only screen and (max-width: 991px) {
+    .post-thumbnail { 
+
+       width: 200px;
+       margin-left: 20px;
+    margin-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .post-thumbnail { 
+     width: 300px;
+    }
+
+}
+
+@media (max-width: 480px) {
+  
+    .post-thumbnail {      
+   width: 250px;
+    }
+}
+
+
+.post-link h2 {
+    color: white;
+    text-decoration: none !important;
+    text-align: center;
+    
+}
+
+.post-link {
+        text-decoration: none !important;
+}
+
+/* alternate page template */
+
+.template-sidebar-wrapper {
+    overflow: hidden; 
+
+}
+
+.template-sidebar-wrapper footer {
+
+    clear: both;    
+}
+
+.template-sidebar-content {  
+    float: right;
+    width: 75%;}
+
+    
+@media only screen and (max-width: 991px) {
+    .template-sidebar-content { 
+width:100%;
+        float: none;
+    }
+
+}
+
+    .template-sidebar-sidebar {
+        float: left;
+        width: 25%; 
+    }
+
+
+.template-sidebar-sidebar a
+{
+text-decoration: none;
+ color: black;
+
+}
+
+.template-sidebar-sidebar 
+{
+ color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .template-sidebar-sidebar { 
+
+        display: none;
+    }
+
+}
+
+.template-sidebar-sidebar h4 {
+    font-size: 20px;
+ margin-left: 15px;
+}
+
+.template-sidebar-sidebar a {
+    font-size: 16px;
+    color: #8C1C13;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+
+
+}
+    
